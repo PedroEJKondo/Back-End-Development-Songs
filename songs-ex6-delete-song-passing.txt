@@ -1,0 +1,10 @@
+curl --request DELETE \
+  -i -w '\n' \
+  --url http://localhost:5000/song/14 \
+  --header 'Content-Type: "application/json"'
+ > songs-ex6-delete-song-passing.txt
+HTTP/1.1 204 NO CONTENT
+Server: Werkzeug/3.1.8 Python/3.9.25
+Date: Wed, 16 Sep 2026 10:17:52 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
